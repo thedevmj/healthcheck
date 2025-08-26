@@ -3,4 +3,4 @@ services:
     name: healthcheck
     env: java
     buildCommand: mvn clean package
-    startCommand: java -jar target/your-app.jar
+    startCommand: java -jar target/healthcheck-0.0.1-SNAPSHOT.jar

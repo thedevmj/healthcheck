@@ -1,5 +1,5 @@
 # Use an official Maven image to build the app
-FROM eclipse-temurin:24-jdk
+FROM eclipse-temurin:21-jdk
 WORKDIR /app
 COPY . .
 RUN mvn clean package
